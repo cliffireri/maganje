@@ -1,0 +1,159 @@
+body{
+}
+.header-section{
+	
+}
+.logo-place{
+	width:100%;
+	height:150px;
+	background:url('img/sec4.jpeg') no-repeat;
+	background-attachment:fixed;
+}
+.opacer{
+	background:black;
+	width:100%;
+	height:150px;
+	opacity:.7;
+}
+.mini-headings{
+	border-bottom:3px solid white;
+	border-bottom-width:1px;
+}
+.section .fa{
+	color: #fff;
+  background: #333;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#section1{
+	
+}
+#section2{
+	
+}
+#section3{
+	
+}
+.intro{
+	color:#ffffff;
+	font-family: Georgia, serif;
+	font-size:20px;
+	padding-top:50px;
+}
+li>a{
+	color:#fff;
+	font-family: cursive;
+	text-decoration:none;
+}
+li a:hover{
+	
+}
+.main_menu{
+	margin:0px auto;
+}
+
+.main_menu>li{
+	border-left:1px solid rgba(0, 0, 0, 0.2);
+	padding:5px 40px;
+	transition:2s ease;
+}
+.sub-menus{
+	display:none;
+	width:900px;
+	position:absolute;
+	overflow: hidden;
+	z-index: 1050;
+	left:15%;
+	background-color:#808080;
+	
+
+}
+.main_menu li:hover,.sub-menus li:hover{
+	background:#808080;
+	
+}
+.main_menu li:hover .sub-menus{
+	display:block;
+}
+.overlay{
+	opacity:7;
+}
+.section a{
+	text-decoration:none;
+	color:#fff;
+	font-family: Georgia, serif;
+	
+}
+.cleaning{
+	
+}
+.set-bg{
+	
+}
+.sliding-dets{
+	width:100%;
+	height:200px;
+	background:#808080;
+	opacity:.8;
+	color:white;
+}
+.loan-header p{
+	font-size:32px;
+	font-family: Georgia, serif;
+}
+.loan-dets{
+	border-left:3px solid #fff;
+	
+}
+.read-more{
+	transition:1s;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+	border:1px solid #fff;
+    }
+.read-more:hover{
+	background-color: #fff;
+        }
+.about-loans-section{
+	background:url('img/sec3.jpeg') no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	min-height: 350px;
+	color:white;
+}
+.dark-cloud-over-mesopotamia{
+	background:black;
+	opacity:.7;
+	min-height: 350px;
+}
+.about-loans-inner{
+	padding:50px 0px;
+}
+.about-loans-inner .fa {
+    
+    background: #008ed6;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px;
+	}
+	.tester{
+		display:none;
+	}
+	.about-loans-inner .btn:hover .tester{
+		display:block;
+	}
+	#main-footer{
+		padding-top:20px;
+		color:#fff;
+		
+	}
+	#main-footer li{
+list-style:none;
+padding:4px;
+}
+#main-footer li a{
+text-decoration:none;
+font-size:18px;
+}
